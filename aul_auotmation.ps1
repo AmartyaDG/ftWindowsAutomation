@@ -56,8 +56,8 @@ Function mount_share
     try{
         Write-Host "Mounting ISO location to drive Z:\"
         #mount share
-        net use z: \\134.111.87.198\test1\Aeries\Aeries_New\ftWindows /u:syseng syseng
-        Write-Host "Location \\134.111.87.198\test1\Aeries\Aeries_New\ftWindows successfully mounted on drive Z:\"
+        net use z: \\134.111.87.198\test1\Stratus_India\ftServer\ftWindows /u:syseng syseng
+        Write-Host "Location \\134.111.87.198\test1\Stratus_India\ftServer\ftWindows successfully mounted on drive Z:\"
 
       }catch{
       Write-Host $_.Exception.Message
